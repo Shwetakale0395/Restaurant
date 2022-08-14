@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a6aca2c7.css",
+    "main.js": "/static/js/main.1f7cb010.js",
+    "static/js/787.aab8bd84.chunk.js": "/static/js/787.aab8bd84.chunk.js",
+    "static/media/Group 9112.png": "/static/media/Group 9112.0ba17733ffecd7340591.png",
+    "static/media/Almarai-Bold.ttf": "/static/media/Almarai-Bold.fd9b394b3a8673e07399.ttf",
+    "static/media/Almarai-SemiBold.ttf": "/static/media/Almarai-SemiBold.353c43cbea9e24d81c03.ttf",
+    "static/media/Almarai-Regular.ttf": "/static/media/Almarai-Regular.4a38a9e69dc7c363301e.ttf",
+    "static/media/Almarai-Light.ttf": "/static/media/Almarai-Light.df41065260668a19cd08.ttf",
+    "static/media/Logo with text.png": "/static/media/Logo with text.e76adb01e50cbf301be4.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.a6aca2c7.css.map": "/static/css/main.a6aca2c7.css.map",
+    "main.1f7cb010.js.map": "/static/js/main.1f7cb010.js.map",
+    "787.aab8bd84.chunk.js.map": "/static/js/787.aab8bd84.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6aca2c7.css",
+    "static/js/main.1f7cb010.js"
+  ]
+}
