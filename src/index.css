@@ -1,0 +1,237 @@
+
+
+/* .slick-slider {
+  margin: 0% 15% !important;
+} */
+.MuiPaper-save {
+  background-color: #ffffff;
+  padding: 15% 20% !important;
+  border-radius: 10px !important;
+  border: 1px solid #f2f2f2 !important;
+  box-shadow: none !important;
+}
+/* .slick-slide {
+  padding: 16px;
+  width: 320px !important;
+}
+.slickcenter {
+  background-color: #ffffff;
+  padding: 15% 20% !important;
+  border-radius: 10px !important;
+  box-shadow: 0px 0px 32px 0px #0000001a !important;
+  border: 1px solid #f2f2f2 !important;
+  transform: scaleY(1.1) !important;
+} */
+
+.MuiAccordion-root {
+  background-color: #c8bcff !important;
+  color: #373535 !important;
+  box-shadow: none !important;
+  border-bottom: 2px solid #dbd5f7 !important;
+ 
+}
+.MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+  transform: rotate(136deg) !important;
+}
+.marquee-container {
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: row !important;
+  position: relative;
+  width: 60% !important;
+  height: 33px !important;
+}
+.overlay {
+  border-left: 1px solid black !important;
+  border-right: 1px solid black !important;
+  --gradient-color: none !important;
+  z-index: 1111 !important;
+}
+
+.MuiAccordionSummary-content:hover + .MuiAccordionSummary-expandIconWrapper,
+.MuiAccordionSummary-content:focus + .MuiAccordionSummary-expandIconWrapper,
+.MuiAccordionSummary-expandIconWrapper:hover {
+  background-color: white !important;
+  border-radius: 19px;
+}
+.marquee {
+  display: flex;
+  justify-content: space-around !important;
+}
+/*ipad*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .marquee-container {
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: row !important;
+    position: relative;
+    width: 100% !important;
+    height: 33px !important;
+  }
+  .MuiTabs-flexContainer {
+    margin: 0% !important;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1304px) {
+  .marquee-container {
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: row !important;
+    position: relative;
+    width: 90% !important;
+    height: 33px !important;
+  }
+}
+@media (min-width: 1305px) and (max-width: 1554px) {
+  .marquee-container {
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: row !important;
+    position: relative;
+    width: 80% !important;
+    height: 33px !important;
+  }
+  .MuiTabs-flexContainer {
+    margin: 0% !important;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .marquee-container {
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: row !important;
+    position: relative;
+    width: 100% !important;
+    height: 33px !important;
+  }
+  .MuiTableHead-root > tr > .MuiTableCell-root {
+    font-size: 10px !important;
+    padding: 1px 1px !important;
+  }
+  .MuiTableBody-root > tr > .MuiTableCell-root {
+    font-size: 8px !important;
+    padding: 5px 1px !important;
+  }
+  .orderTable {
+    height: "45vh";
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #videoplayer > div > .MuiDialog-paper {
+    background-color: #fafaff00 !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    border-radius: 0px;
+    box-shadow: none !important;
+  }
+  .marquee-container {
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: row !important;
+    position: relative;
+    width: 70% !important;
+    height: 33px !important;
+  }
+  .MuiDialog-paper {
+    padding: 6% 4% !important;
+  }
+  .MuiTableHead-root > tr > .MuiTableCell-root {
+    font-size: 10px !important;
+    padding: 1px 1px !important;
+  }
+  .MuiTableBody-root > tr > .MuiTableCell-root {
+    font-size: 8px !important;
+    padding: 5px 1px !important;
+  }
+  .orderTable {
+    height: "45vh";
+  }
+}
+
+.Mui-checked + span {
+  opacity: 1 !important;
+}
+.MuiRadio-root + span {
+  opacity: 0.5;
+}
+.MuiFormControlLabel-root {
+  margin-bottom: 6px;
+}
+.MuiTooltip-tooltip {
+  background-color: #ffffff !important;
+  box-shadow: 0px 3px 12px 0px #4a3aff2e !important;
+  border-radius: 12px !important;
+  color: #373535 !important;
+  font-size: 12px !important;
+  font-family: "Almarai-Medium" !important;
+}
+
+.MuiAccordion-root:before {
+  background-color: #c8bcff !important;
+  position: relative !important;
+}
+.MuiAccordion-root:first-of-type {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-top: 2px solid #dbd5f7 !important;
+}
+
+.MuiAccordion-root:last-of-type {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+#panel2a-header {
+  padding: 14px 0px !important;
+}
+.MuiAccordionDetails-root {
+  padding: 0px 1px 32px !important;
+}
+.MuiListItemText-root > span {
+  font-size: 18px;
+  font-family: "Almarai-Medium";
+}
+.submenu > span {
+  font-size: 14px;
+  font-family: "Almarai-Medium";
+}
+.MuiDrawer-paper {
+  background-color: #eaf9e7 !important;
+}
+.MuiDialog-paper {
+  background-color: #fafaff !important;
+}
+.MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff !important;
+}
+.MuiOutlinedInput-input.Mui-disabled {
+  opacity: 1;
+  -webkit-text-fill-color: #373535 !important;
+}.MuiTab-root {
+  font-family: "Almarai-Medium" !important;
+  font-size: 16px !important;
+  color: #6d6d6f !important;
+  text-transform: capitalize !important;
+  min-height: 62px !important;
+  margin: 12px 20px !important;
+  padding: 0%!important;
+  min-width: 50px!important;
+}
+.MuiTab-root.Mui-selected {
+  color: #352e5b !important;
+}
+ .MuiTabs-indicator {
+  margin: 10% 0%;
+}
+
+
+
+.nav-tabs {
+  border-width: 3px;}

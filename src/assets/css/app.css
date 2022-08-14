@@ -1,0 +1,47 @@
+
+
+@font-face {
+  font-family: "Almarai-Bold";
+  src: url(../../../src/assets/fonts/Almarai-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Almarai-Regular";
+  src: url(../../../src/assets/fonts/Almarai-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Almarai-SemiBold";
+  src: url(../../../src/assets/fonts/Almarai-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Almarai-Light";
+  src: url(../../../src/assets/fonts/Almarai-Light.ttf);
+}
+
+
+/* Primary Color */
+body,
+html {
+  line-height: 1;
+  height: 100%;
+  font-family: "Almarai-Regular" !important;
+}
+body {
+  font-size: 14px;
+  color: #373535;
+  font-family: "Almarai-Regular";
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 300px) {
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
